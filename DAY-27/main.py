@@ -8,6 +8,8 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
+
+        
         count = 0
         prefix = 0
         freq = defaultdict(int)

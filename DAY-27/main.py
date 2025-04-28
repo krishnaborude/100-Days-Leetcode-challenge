@@ -9,7 +9,7 @@ class Solution(object):
         :rtype: int
         """
 
-        
+
         count = 0
         prefix = 0
         freq = defaultdict(int)
@@ -24,4 +24,5 @@ class Solution(object):
             
             freq[prefix % modulo] += 1
 
-        return count
+        return count    
+        
